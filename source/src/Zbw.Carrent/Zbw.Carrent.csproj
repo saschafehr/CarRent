@@ -4,19 +4,30 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>bcb59d5f-e955-4808-b1a9-14f2a36b1017</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
-	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
 		<PrivateAssets>all</PrivateAssets>
 		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	</PackageReference>
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Domains\Brand\Infrastructur\" />
+    <Folder Include="Domains\Categories\Infrastructur\" />
+    <Folder Include="Domains\Model\Infrastructur\" />
+    <Folder Include="Domains\RentalContract\Api\" />
+    <Folder Include="Domains\RentalContract\Infrastructur\" />
+    <Folder Include="Domains\Reservation\Api\" />
+    <Folder Include="Domains\Reservation\Infrastructur\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 

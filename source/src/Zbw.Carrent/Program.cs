@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Zbw.Carrent.Customer.Infrastructure;
+using Zbw.Carrent.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
