@@ -1,0 +1,89 @@
+<mxfile host="Electron" modified="2023-09-01T15:49:14.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" version="21.6.8" etag="OZ4opQpK_Syr52BtIe56" type="device">
+  <diagram id="WgaoUX4q83cU38WVhoyI" name="Seite-1">
+    <mxGraphModel dx="1098" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-2" value="CarRent - Software" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-3" value="Sachbearbeiter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-12" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1" source="FpGQYQKT8WpfHliB0MXv-2" target="FpGQYQKT8WpfHliB0MXv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-13" value="Kunde erhalten" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpGQYQKT8WpfHliB0MXv-12">
+          <mxGeometry x="0.2768" y="-25" relative="1" as="geometry">
+            <mxPoint x="45" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-14" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1" source="FpGQYQKT8WpfHliB0MXv-3" target="FpGQYQKT8WpfHliB0MXv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-15" value="Kunde erfassen/bearbeiten" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpGQYQKT8WpfHliB0MXv-14">
+          <mxGeometry x="-0.283" y="-33" relative="1" as="geometry">
+            <mxPoint x="11" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-16" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1" source="FpGQYQKT8WpfHliB0MXv-3" target="FpGQYQKT8WpfHliB0MXv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-17" value="Auto erfassen/bearbeiten" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpGQYQKT8WpfHliB0MXv-16">
+          <mxGeometry x="0.1453" y="-33" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-18" value="Kunde" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-19" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1" source="FpGQYQKT8WpfHliB0MXv-18" target="FpGQYQKT8WpfHliB0MXv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-20" value="Reservation tätigen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpGQYQKT8WpfHliB0MXv-19">
+          <mxGeometry x="-0.4205" y="37" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-21" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1" source="FpGQYQKT8WpfHliB0MXv-2" target="FpGQYQKT8WpfHliB0MXv-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpGQYQKT8WpfHliB0MXv-22" value="Reservation ansehen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpGQYQKT8WpfHliB0MXv-21">
+          <mxGeometry x="-0.3478" y="42" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

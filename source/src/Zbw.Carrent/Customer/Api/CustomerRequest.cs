@@ -1,9 +1,11 @@
-﻿namespace Zbw.Carrent.Customer.Api
+﻿using Zbw.Carrent.Customer.Api.Address;
+
+namespace Zbw.Carrent.Customer.Api
 {
     public class CustomerRequest
     {
-        public Guid Id { get; set; }
+        public int CustomerNr { get; set; }
         public string Name { get; set; }
-        public string Address { get; set; }
+        public CustomerResponseAddress Address { get; set; }
     }
 }
